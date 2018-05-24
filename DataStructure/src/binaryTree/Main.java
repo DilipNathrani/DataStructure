@@ -8,9 +8,9 @@ public class Main {
 		try{
 			objBinaryTree = new BinaryTree();
 			objBinaryTree.add(10);
-			/*objBinarlyTree.add(20);
+			objBinaryTree.add(20);
 			objBinaryTree.add(5);
-			objBinaryTree.add(15);*/
+			objBinaryTree.add(15);
 			objBinaryTree.traverseInOrder(objBinaryTree.root);
 		}catch (Exception e) {
 		
